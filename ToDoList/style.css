@@ -1,0 +1,38 @@
+header
+{
+ width: 100%;
+}
+footer
+{
+    height: 50px;
+    background-color:lightblue;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+#inList
+{
+    border-color:cornflowerblue;
+    border-radius: 0.3rem;
+}
+#btn
+{
+    border-radius: 0.3rem;
+    border-color:orange;
+    background-color:orange;
+    width: 8rem;
+    height: 2.2rem;
+}
+#disList
+{
+    background-color:darkkhaki;
+    width: 10rem;
+
+}
+#pList
+{
+    color: darkred;
+    margin-left: 20px;
+}

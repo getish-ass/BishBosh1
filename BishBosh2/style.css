@@ -1,0 +1,35 @@
+#firsthead
+{
+ color: blue;
+}
+
+header{
+    background-color:darksalmon;
+    height: 70px;
+    border:maroon;
+    padding: 0.5px 0 0 40px;
+
+}
+h1
+{
+   color: mintcream;
+}
+#bashInput
+{
+    width: fit-content;
+}
+footer
+{
+    height: 50px;
+    background-color:lightblue;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+#myBtn
+{
+    background-color: orangered;
+    border-color: orangered;
+}
