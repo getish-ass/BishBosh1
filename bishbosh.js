@@ -10,8 +10,7 @@ for(let i = 1; i <= 100; i++){
         bishBosh.push('Bosh');
     } else {
         bishBosh.push(i);
-    }
-    
+    }   
 }
 bishBosh.forEach((element) => console.log(element));
 }
