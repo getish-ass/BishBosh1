@@ -18,7 +18,7 @@ h1
 {
     width: fit-content;
 }
-bishInput2
+#bishInput2
 {
    width:fit-content;
 }
@@ -36,4 +36,7 @@ footer
 {
     background-color: orangered;
     border-color: orangered;
+    width: 6rem;
+    font-weight: bolder;
+    color: bisque;
 }

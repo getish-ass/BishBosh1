@@ -8,30 +8,33 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
+<body id="bodyId">
    <header class="bg-primary">
         <div class="container">
         <p class="fs-1 text-light">A To Do List</p>
        </div>       
    </header>
-
+   <div class="container">
+       <img class="infos" src="../ToDoList/info.jpg" height="45" width="45" alt="">
+       <p class="hide">Enter items to the list by writing in the text box and pressing
+           Add to list button. Click to mark an element from the list and
+           double click to remove an element from the list.
+       </p>
+    </div>
    <div class="container position-relative">
-       <div class="mt-5 position-absolute top-50 start-50 translate-middle">
+       <div class="mt-5 position-absolute top-0 start-50 translate-middle">
         <input id="inList" type="text" onfocus="this.value=''">
         <button id="btn">Add to List</button>
        </div>
+       
        <div class="position-fixed top-50 start-50 translate-middle">
             <ul id="disList">
 
            </ul>
+        
        </div>
        
    </div>
-
-
-
-
-
 
 
     <footer>
